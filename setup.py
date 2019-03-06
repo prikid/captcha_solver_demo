@@ -1,8 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='captcha_solver',
-    version='1.0',
+    version='0.1',
     packages=['captcha_solver'],
     url='prikid.app',
     license='',
@@ -11,7 +11,7 @@ setup(
     description='',
     install_requires=[
         'numpy',
-        'cv2',
+        'opencv-python',
         'imutils',
         'pytesseract'
     ],
