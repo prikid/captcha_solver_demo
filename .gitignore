@@ -1,0 +1,11 @@
+captcha_solver/
+.idea/
+__pycache__/
+build/bdist.win-amd64/
+captcha_solver.egg-info/
+example/
+findangle.py
+testocr.py
+testocr2.py
+testocr3.py
+thresh.py
