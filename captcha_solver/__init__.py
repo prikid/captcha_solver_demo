@@ -1,1 +1,0 @@
-name = 'captcha_solver'
