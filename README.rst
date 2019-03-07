@@ -26,8 +26,3 @@ To run demo:
 .. code:: bash
 
     $ (env)> python demo/main.py
-
-*Don't use cyrillic symbols in path to demo project*
-
-
-
