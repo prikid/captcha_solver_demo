@@ -3,7 +3,7 @@ from captcha_solver import solve_captcha
 
 if __name__ == '__main__':
 
-    directory = os.path.dirname(os.path.realpath(__file__)) + '/captchas/'
+    directory = os.path.dirname(os.path.realpath(__file__)) + '\\captchas\\'
 
     total = solved_count = 0
 
