@@ -4,11 +4,11 @@ setup(
     name='captcha_solver',
     version='0.1',
     packages=['captcha_solver'],
-    url='prikid.app',
+    url='https://github.com/prikid/capthca_solver_demo',
     license='',
     author='Serhii Riabcheniuk',
     author_email='serhii@prikid.app',
-    description='',
+    description='Captcha solver',
     install_requires=[
         'numpy',
         'opencv-python',
