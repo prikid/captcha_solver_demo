@@ -4,7 +4,6 @@ import imutils
 from pytesseract import image_to_string
 import re
 
-
 def __get_angled_rect(x0, y0, width, height, angle):
     """
 Return rotated rectangle coordinates
@@ -77,8 +76,15 @@ def __rotate_crop_ocr(img, angle, lang, show_image=False):
             cropped)
 
 
+def __imread_unicode(filename):
+    stream = open(filename, "rb")
+    bytes = bytearray(stream.read())
+    np_array = np.asarray(bytes, dtype=np.uint8)
+    return cv2.imdecode(np_array, cv2.IMREAD_UNCHANGED)
+
+
 def solve_captcha(filename, show_image=False, lang='hat'):
-    img = cv2.imread(filename)
+    img = __imread_unicode(filename)
     if show_image:
         cv2.imshow('Captcha', img)
         if 27 == cv2.waitKey(10):

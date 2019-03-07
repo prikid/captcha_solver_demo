@@ -1,3 +1,6 @@
+# import sys
+# sys.path.append(r"C:\Users\Sergii\PycharmProjects\testocr")
+
 import os
 from captcha_solver import solve_captcha
 

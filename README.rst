@@ -4,7 +4,7 @@ INSTALLATION
 Prerequisites:
 
 - Captcha_solver requires python 3.x
-- Install `Google Tesseract OCR <https://github.com/tesseract-ocr/tesseract>`_
+- Install `Google Tesseract OCR <https://github.com/tesseract-ocr/tesseract>`_ 4.0 or greater
   (additional info how to install the engine on Linux, Mac OSX and Windows).
   You must be able to invoke the tesseract command as *tesseract*.
   Under Debian/Ubuntu you can use the package **tesseract-ocr**.
@@ -27,5 +27,7 @@ To run demo:
 
     $ (env)> python demo/main.py
 
-install tesseract > 4.0
+*Don't use cyrillic symbols in path to demo project*
+
+
 
