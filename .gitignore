@@ -1,4 +1,3 @@
-captcha_solver/
 .idea/
 __pycache__/
 build/bdist.win-amd64/

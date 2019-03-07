@@ -5,7 +5,7 @@ Clone project from github to your local directory
 
 .. code:: bash
 
-    $ git clone https://github.com/prikid/captcha_solver_demo.git
+    git clone https://github.com/prikid/captcha_solver_demo.git
 
 Install package
 
