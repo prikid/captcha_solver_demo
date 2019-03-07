@@ -1,3 +1,3 @@
-from captcha_solver import *
-name = 'captcha_solver'
+from .captcha_solver import solve_captcha
+
 
